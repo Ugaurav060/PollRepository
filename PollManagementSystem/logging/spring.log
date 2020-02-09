@@ -1,0 +1,37 @@
+2020-01-14 22:00:51.114  INFO 12152 --- [main] com.cg.PollManagementSystemApplication   : Starting PollManagementSystemApplication on LIN34001796 with PID 12152 (C:\Users\amaamin\Downloads\PollManagement\PollManagementSystem\target\classes started by amaamin in C:\Users\amaamin\Downloads\PollManagement\PollManagementSystem)
+2020-01-14 22:00:51.122  INFO 12152 --- [main] com.cg.PollManagementSystemApplication   : No active profile set, falling back to default profiles: default
+2020-01-14 22:00:53.009  INFO 12152 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-01-14 22:00:53.163  INFO 12152 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 140ms. Found 6 JPA repository interfaces.
+2020-01-14 22:00:53.703  INFO 12152 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-14 22:00:54.253  INFO 12152 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2020-01-14 22:00:54.267  INFO 12152 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-14 22:00:54.267  INFO 12152 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-14 22:00:54.527  INFO 12152 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-14 22:00:54.528  INFO 12152 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3296 ms
+2020-01-14 22:00:54.922  INFO 12152 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-01-14 22:00:55.073  INFO 12152 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.9.Final}
+2020-01-14 22:00:55.308  INFO 12152 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-01-14 22:00:55.572  INFO 12152 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-01-14 22:00:55.583  WARN 12152 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2020-01-14 22:00:56.927  INFO 12152 --- [main] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (Receiver class oracle.jdbc.driver.T4CConnection does not define or inherit an implementation of the resolved method abstract getNetworkTimeout()I of interface java.sql.Connection.)
+2020-01-14 22:00:56.933  INFO 12152 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-01-14 22:00:56.962  INFO 12152 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2020-01-14 22:00:59.230  INFO 12152 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-01-14 22:00:59.244  INFO 12152 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-01-14 22:01:00.703  WARN 12152 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-01-14 22:01:00.998  INFO 12152 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-01-14 22:01:01.234  INFO 12152 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-14 22:01:01.581  INFO 12152 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-01-14 22:01:01.605  INFO 12152 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-01-14 22:01:01.651  INFO 12152 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-01-14 22:01:02.076  INFO 12152 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2020-01-14 22:01:02.081  INFO 12152 --- [main] com.cg.PollManagementSystemApplication   : Started PollManagementSystemApplication in 21.748 seconds (JVM running for 24.392)
+2020-01-14 22:01:06.229  INFO 12152 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-14 22:01:06.230  INFO 12152 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-01-14 22:01:06.245  INFO 12152 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 15 ms
+2020-01-14 22:01:18.351 ERROR 12152 --- [http-nio-9090-exec-9] com.cg.pollAop.LoggingAop                : No such userId
+2020-01-14 22:05:49.285  INFO 12152 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-01-14 22:05:49.290  INFO 12152 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-14 22:05:49.295  INFO 12152 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-01-14 22:05:49.299  INFO 12152 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-01-14 22:05:49.347  INFO 12152 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
